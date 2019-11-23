@@ -1,0 +1,118 @@
+body {
+  margin: 0px;
+  font-family: "Finger Paint", cursive;
+  background-color: #dedede;
+}
+.container {
+  display: flex;
+  background-color: #ffffff;
+}
+.canvas {
+  height: 500px;
+  width: 42%;
+  position: relative;
+  border: 2px solid #dedede;
+  overflow: hidden;
+  justify-content: right;
+  flex-shrink: 0;
+}
+.sidebar {
+  justify-content: left;
+  border: 2px solid #dedede;
+  height: 500px;
+  width: 58%;
+}
+.sidecontainer {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-self: center;
+  overflow: hidden;
+}
+.innerone .innertwo {
+  display: flex;
+  flex-flow: row wrap;
+}
+.btn {
+  height: 3.1rem;
+  width: 3.1rem;
+  border-radius: 5px;
+  margin: 2.2%;
+  margin-bottom: 18%;
+}
+.btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #f2f6f5;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+.eraser-btn {
+  height: 3rem;
+  width: 94%;
+  border-radius: 5px;
+  margin: 15px;
+  font-weight: 600;
+  font-family: "open-sans", sans-serif;
+}
+.eraser-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #f2f6f5;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+.clear-btn {
+  height: 3rem;
+  width: 94%;
+  border-radius: 5px;
+  margin: 15px;
+  font-weight: 600;
+  font-family: "open-sans", sans-serif;
+}
+.clear-btn:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 #f2f6f5;
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 200;
+}
+
+.divPaint {
+  height: 5px;
+  width: 5px;
+  background-color: black;
+}
+
+.div-black {
+  background-color: #393e46;
+}
+.div-blue {
+  background-color: #3fc5f0;
+}
+.div-red {
+  background-color: #fa697c;
+}
+.div-yellow {
+  background-color: #fbe555;
+}
+.div-orange {
+  background-color: #ffa372;
+}
+.div-green {
+  background-color: #36b5b0;
+}
+.div-pink {
+  background-color: #edb5f5;
+}
+.div-purple {
+  background-color: #e86ed0;
+}
+.div-white {
+  background-color: #ffffff;
+  height: 20px;
+  width: 20px;
+}
